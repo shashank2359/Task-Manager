@@ -94,13 +94,10 @@ Backend:
 ## Screenshots
 
 ### Login
-
-![Login](screenshots/login.png)
+![Login](./screenshots/login.png)
 
 ### Register
-
-![Register](screenshots/register.png)
+![Register](./screenshots/register.png)
 
 ### Dashboard
-
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](./screenshots/dashboard.png)
