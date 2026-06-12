@@ -90,3 +90,17 @@ Backend:
 - MongoDB
 - JWT
 - bcryptjs
+
+## Screenshots
+
+### Login
+
+![Login](screenshots/login.png)
+
+### Register
+
+![Register](screenshots/register.png)
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
