@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#4f46e5,#9333ea);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:450px;
+    background:white;
+    padding:35px;
+    border-radius:25px;
+    box-shadow:0 15px 40px rgba(0,0,0,.2);
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.header h2{
+    color:#111827;
+}
+
+.header p{
+    color:#6b7280;
+    margin-top:5px;
+    font-size:14px;
+}
+
+input{
+    width:100%;
+    padding:15px;
+    border:none;
+    outline:none;
+    background:#f3f4f6;
+    border-radius:12px;
+    margin-top:15px;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    margin-top:15px;
+    border:none;
+    border-radius:12px;
+    background:#4f46e5;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#3730a3;
+}
+
+.logout-btn{
+    width:100px;
+    margin-top:0;
+    background:#ef4444;
+}
+
+.delete-btn{
+    width:90px;
+    margin-top:0;
+    background:#ef4444;
+}
+
+.task{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:20px;
+    background:#f8fafc;
+    padding:18px;
+    border-radius:15px;
+}
+
+.task h3{
+    color:#111827;
+    margin-bottom:5px;
+}
+
+.task small{
+    color:#6b7280;
+}
+
+hr{
+    margin-top:20px;
+    border:none;
+    border-top:1px solid #e5e7eb;
+}
